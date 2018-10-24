@@ -12,10 +12,9 @@ public class Trader {
     private final String city;
     private String itemId;
 
-    public Trader(String name, String city, String itemId) {
+    public Trader(String name, String city) {
         this.name = name;
         this.city = city;
-        this.itemId = itemId;
     }
 
     public String getItemId() {
