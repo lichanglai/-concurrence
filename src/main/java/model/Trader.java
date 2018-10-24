@@ -10,11 +10,22 @@ public class Trader {
 
     private final String name;
     private final String city;
+    private String itemId;
 
-    public Trader(String n, String c){
-        this.name = n;
-        this.city = c;
+    public Trader(String name, String city, String itemId) {
+        this.name = name;
+        this.city = city;
+        this.itemId = itemId;
     }
+
+    public String getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(String itemId) {
+        this.itemId = itemId;
+    }
+
     public String getName(){
         return this.name;
     }
