@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @program: test
+ * @program:  自定义注解
  * @Date: 2018/10/22 14:38
  * @Author: lichanglai
  * @Description:
